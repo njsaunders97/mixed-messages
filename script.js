@@ -16,7 +16,8 @@ const messageParts = {
         "champ.",
         "friend.",
         "buddy. Remember you have a fat bunda!",
-        "sport."
+        "sport.",
+        "scamp."
     ]
 }
 
@@ -33,5 +34,8 @@ const generateMessage = () => {
 
     return `${part1} ${part2} ${part3}`;
 }
+
+let name = prompt("What is your name, weary traveller?");
+
 
 console.log(generateMessage());
